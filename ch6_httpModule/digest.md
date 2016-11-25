@@ -20,3 +20,7 @@ require('http').createServer((req, res) => { // same with request event listener
 ### response객체
 - request eventListener의 두 번째 매개변수로 전달되는 객체
 - Method : writeHead(statusCode, object), end([data],[encoding]) 
+- fs모듈을 이용하면 html, text, image, mp3 ... 등의 파일들을 제공할 수 있다.
+- `MIME 형식` 참고.
+- 쿠키 생성(Set-Cookie)
+- 페이지 강제 이동(Location)
