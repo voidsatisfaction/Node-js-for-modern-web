@@ -1,0 +1,21 @@
+{
+  "name": "expressprac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prac.js",
+  "scripts": {
+    "start": "babel-node static.js --presets es2015,stage-0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
